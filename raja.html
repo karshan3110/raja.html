@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="rani.css">
 </head>
 <body>
+    
     <div class="w">
         <h1>This is an H1 Heading</h1>
         <h2>This is an H2 Heading</h2>
@@ -17,6 +19,7 @@
     <div>
         <p>This is a paragraph with <b>strong</b>, <em>emphasis</em>, <u>underline</u>, and <mark>marked</mark> text</p>
     </div>
+    
     <div>
         <a href="https://www.bing.com/search?qs=HS&pq=google&sk=CSYN1UAS7LS2FT4AS7&sc=25-6&pglt=2339&q=google+chrome+browser&cvid=9152e7c995bd45a2ab8b391b5c329ee4&gs_lcrp=EgRlZGdlKgYIAhAAGEAyBggAEAAYQDIGCAEQLhhAMgYIAhAAGEAyBggDEAAYQDIGCAQQLhhAMgYIBRAuGEAyBggGEEUYPDIGCAcQRRg8MgYICBBFGDzSAQk0MDg1OWowajGoAgCwAgA&FORM=ANSPA1&ucpdpc=UCPD&PC=DCTS">This is a link</a>
     </div>
@@ -51,9 +54,8 @@
             <br>
             <input type="checkbox" name="subscribe"> subscribe
             <br><br>
-            <input type="radio" name="gender">Male
-            <br>
-            <input type="radio" name="gender">Female
+            <input type="radio" name="gender" value="Male">Male &nbsp;&nbsp;
+            <input type="radio" name="gender" value="Female">Female
             <br><br>
             </form>
             <button>submit</button>
@@ -64,6 +66,52 @@
                 <br><br>
                 This is a small text<br><br><abbr title="World health organization">WHO</abbr>
             </p>
+    </div>
+    <div>
+        <table border="2">
+            <tr>
+                <th rowspan="3">Day</th>
+                <th colspan="3">Seminar</th>
+            </tr>
+            <tr>
+                <td colspan="2">Schedule</td>
+                <td rowspan="2">Topic</td>
+            </tr>
+            <tr>
+                <td>Begin</td>
+                <td>End</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Monday</td>
+                <td rowspan="2">8:00 a.m.</td>
+                <td rowspan="2">5:00 p.m.</td>
+                <td>Introduction to XML</td>
+            </tr>
+            <tr>
+                <td>Validity: DTD and Relax NR</td>
+            </tr>
+            <tr>
+                <td rowspan="3">Tuesday</td>
+                <td>8:00 a.m.</td>
+                <td>11:00 a.m.</td>
+                <td rowspan="2">Xpath</td>
+            </tr>
+            <tr>
+                <td>11:00 a.m.</td>
+                <td>2:00 p.m.</td>
+            </tr>
+            <tr>
+                <td>2:00 p.m</td>
+                <td>5:00 p.m</td>
+                <td>XSL Transformations</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>8:00 a.m.</td>
+                <td>12:00 p.m</td>
+                <td>XSL Formatting Objects</td>
+            </tr>
+        </table>
     </div>
 </body>
 </html>
